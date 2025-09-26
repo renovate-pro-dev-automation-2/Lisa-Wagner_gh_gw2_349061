@@ -33,9 +33,9 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 
 http_archive(
     name = "com_google_protobuf",
-    sha256 = "8eb5ca331ab8ca0da2baea7fc0607d86c46c80845deca57109a5d637ccb93bb4",
-    strip_prefix = "protobuf-3.9.0",
-    urls = ["https://github.com/protocolbuffers/protobuf/archive/v3.9.0.zip"],
+    sha256 = "8888d89b851f3c60589d63e4b852b2078544beb2cee1fc22655d3e50ece21da4",
+    strip_prefix = "protobuf-32.1",
+    urls = ["https://github.com/protocolbuffers/protobuf/archive/v32.1.zip"],
 )
 
 load("@com_google_protobuf//:protobuf_deps.bzl", "protobuf_deps")
